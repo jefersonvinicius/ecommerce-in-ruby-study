@@ -2,7 +2,7 @@ json.product do
     json.id @product.id
     json.name @product.name
     json.description @product.description
-    json.inventary @product.inventary
+    json.inventory @product.inventory
     json.image_url @product.image.url
     json.price @product.price
     json.created_at @product.created_at

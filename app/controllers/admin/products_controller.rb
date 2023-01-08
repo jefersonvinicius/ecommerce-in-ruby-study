@@ -12,7 +12,7 @@ module Admin
         private
     
         def product_params
-            params.permit(:name, :description, :inventary, :price, :image)
+            params.permit(:name, :description, :inventory, :price, :image)
         end
     end
 end
